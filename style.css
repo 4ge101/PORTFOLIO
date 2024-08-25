@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 ::selection {
@@ -18,4 +18,344 @@
 
 body {
     font-family: "Stylish", serif;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0 15px;
+    border: 2px solid black;
+    top: 20px;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 27px;
+    padding: 0 12px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 28px;
+}
+
+.logo i {
+    font-size: 40px;
+    overflow: hidden;
+}
+
+.single-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 32em;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 95px;
+    gap: 8px;
+}
+
+.social-links i {
+    font-size: 25px;
+}
+
+.social-links span {
+    width: 40px;
+    border: 2px solid var(--black);
+    border-radius: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links span:nth-child(3) {
+    background: var(--black);
+}
+
+.fa-instagram {
+    color: var(--color);
+}
+
+.text {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 21px;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.text span:nth-child(2) {
+    width: 25px;
+    border: 2px solid var(--black);
+    border-radius: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}
+
+.head {
+    padding: 90px 0 40px;
+}
+
+.head h1 {
+    font-size: 60px;
+    width: 29%;
+    font-weight: bold;
+}
+
+.head h1 span {
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 0 10px;
+}
+
+.content {
+    width: 40%;
+}
+
+main {
+    padding: 0 0 0 60px;
+    position: absolute;
+}
+
+.circle-arrow i {
+    font-size: 75px;
+    position: absolute;
+    transform: rotate(-130deg);
+    bottom: 0px;
+    left: 7.6em;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 {
+    width: 140px;
+    height: 140px;
+    background: rebeccapurple;
+    position: absolute;
+    top: 100px;
+    border-radius: 20px;
+    border: 1px solid black;
+    /* overflow: hidden; */
+}
+
+.box1 {
+    right: 380px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background: var(--color);
+    overflow: hidden;
+}
+
+.box2 {
+    right: 240px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.box3 {
+    right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.box4 {
+    top: 240px;
+    right: 380px;
+    background: #d5d0d0;
+    overflow: hidden;
+}
+
+.box5 {
+    top: 240px;
+    right: 240px;
+    background-color: black;
+}
+
+.box6 {
+    top: 240px;
+    right: 100px;
+    background-color: black;
+}
+
+.box7 {
+    top: 380px;
+    right: 380px;
+}
+
+.box8 {
+    top: 380px;
+    right: 240px;
+}
+
+.box9 {
+    top: 380px;
+    right: 100px;
+}
+
+.half-circle {
+    width: 250px;
+    height: 250px;
+    background: #f2ff41;
+    border-top-left-radius: 50%;
+    position: absolute;
+    left: 29px;
+    top: 11px;
+}
+
+.half-circle i {
+    position: absolute;
+    font-size: 70px;
+    top: 35px;
+    left: 45px;
+}
+
+.second-half-circle {
+    width: 125px;
+    height: 125px;
+    background: var(--color);
+    border-bottom-left-radius: 100%;
+    position: absolute;
+    left: 30px;
+    top: 0px;
+}
+
+.second-half-circle i {
+    position: absolute;
+    font-size: 70px;
+    top: 10px;
+    left: 25px;
+}
+
+.left-eye {
+    width: 45px;
+    height: 95px;
+    background: var(--color);
+    display: block;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.right-eye {
+    width: 45px;
+    height: 95px;
+    background: var(--color);
+    display: block;
+    position: absolute;
+    left: 82px;
+    top: 20px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.eye-ball-left {
+    display: block;
+    width: 35px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    bottom: 16px;
+    border-radius: 100%;
+    left: 27px;
+    clip-path: polygon(-28.57% 6%, 100% 0%, 274.29% 1%, 343.57% 99%, 149.29% 144%, -41.44% 87.00%, 25.72% 53%);
+}
+
+.eye-ball-right {
+    display: block;
+    width: 35px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    bottom: 16px;
+    border-radius: 100%;
+    left: 27px;
+    clip-path: polygon(-28.57% 6%, 100% 0%, 274.29% 1%, 343.57% 99%, 149.29% 144%, -41.44% 87.00%, 25.72% 53%);
+}
+
+.eye-line {
+    width: 45px;
+    height: 1px;
+    display: block;
+    background: black;
+    position: absolute;
+    top: 21px;
+}
+
+.eye-fill {
+    display: block;
+    width: 42px;
+    height: 21px;
+    background-color: #cecdcd;
+}
+
+.time-circle {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.timer {
+    position: absolute;
+}
+
+.fa-clock {
+    font-size: 100px;
+    background: white;
+    border-radius: 100%;
+}
+
+.d3-box{
+    width: 140px;
+    height: 140px;
+    background-color: red;
+    position: absolute;
+    transform: rotateX(30deg) rotateY(60deg);
+    right: 32px;
+    top: 10px;
+    border-radius: 27px 0 0 30px;
+    border: 2px solid black;
 }

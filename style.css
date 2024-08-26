@@ -6,10 +6,10 @@
     /* overflow-x: hidden; */
 }
 
-::selection {
+/* ::selection {
     background: rgba(13, 194, 226, 0.959);
     color: white;
-}
+} */
 
 :root {
     --color: white;
@@ -226,11 +226,24 @@ main {
 .box8 {
     top: 380px;
     right: 240px;
+    background-color: #d5d0d0;
 }
 
 .box9 {
     top: 380px;
     right: 100px;
+    background-color: #f2ff41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box91 {
+    width: 120px;
+    height: 120px;
+    background: red;
+    border-radius: 20px;
+    border: 1px solid black;
 }
 
 .half-circle {
@@ -495,16 +508,61 @@ main {
     position: absolute;
     color: white;
     font-size: 30px;
-    bottom: 7px;
+    bottom: 0;
     z-index: 2;
     left: 30px;
 }
 
-.emoji2{
+.emoji2 {
     position: absolute;
-  color: white;
-  font-size: 30px;
-  bottom: 42px;
-  z-index: 2;
-  right: 150px;
+    color: white;
+    font-size: 30px;
+    bottom: 30px;
+    z-index: 2;
+    right: 133px;
+}
+
+.emoji3 {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    bottom: 40px;
+    z-index: 2;
+    right: 54px;
+}
+
+.emoji4 {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    bottom: 47px;
+    z-index: 15;
+    right: 347px;
+}
+
+.emoji5 {
+    position: absolute;
+    color: #000;
+    font-size: 30px;
+    bottom: 19px;
+    z-index: 19;
+    right: 389px;
+}
+
+.emoji6 {
+    position: absolute;
+    color: #000;
+    font-size: 30px;
+    bottom: -20px;
+    z-index: 19;
+    right: 426px;
+}
+
+.emoji7 {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    bottom: -67px;
+    z-index: 19;
+    right: 442px;
 }

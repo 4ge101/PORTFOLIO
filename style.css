@@ -24,10 +24,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 0 15px;
+    /* padding: 15px 0 15px; */
     border: 2px solid black;
     top: 20px;
     position: relative;
+    width: 90%;
+    left: 61px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.number1 {
+    position: absolute;
+    left: 201px;
+    font-size: 19px;
+    top: 42px;
 }
 
 nav {
@@ -57,6 +68,9 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     padding: 0 28px;
+    background: #f2ff41;
+    border-right: 2px solid black;
+    height: 70px;
 }
 
 .logo i {
@@ -165,8 +179,8 @@ main {
 .box7,
 .box8,
 .box9 {
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 200px;
     background: rebeccapurple;
     position: absolute;
     top: 100px;
@@ -176,7 +190,7 @@ main {
 }
 
 .box1 {
-    right: 380px;
+    right: 442px;
     display: flex;
     align-items: end;
     justify-content: end;
@@ -191,7 +205,7 @@ main {
 }
 
 .box3 {
-    right: 100px;
+    right: 38px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -199,39 +213,39 @@ main {
 }
 
 .box4 {
-    top: 240px;
-    right: 380px;
+    top: 302px;
+    right: 442px;
     background: #d5d0d0;
     overflow: hidden;
 }
 
 .box5 {
-    top: 240px;
+    top: 302px;
     right: 240px;
     background-color: black;
 }
 
 .box6 {
-    top: 240px;
-    right: 100px;
+    top: 302px;
+    right: 38px;
     background-color: black;
 }
 
 .box7 {
-    top: 380px;
-    right: 380px;
+    top: 504px;
+    right: 442px;
     overflow: hidden;
 }
 
 .box8 {
-    top: 380px;
+    top: 504px;
     right: 240px;
     background-color: #d5d0d0;
 }
 
 .box9 {
-    top: 380px;
-    right: 100px;
+    top: 504px;
+    right: 38px;
     background-color: #f2ff41;
     display: flex;
     justify-content: center;
@@ -239,44 +253,61 @@ main {
 }
 
 .box91 {
-    width: 120px;
-    height: 120px;
+    width: 170px;
+    height: 170px;
     background: red;
     border-radius: 20px;
     border: 1px solid black;
+}
+
+.dot-91 {
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 100%;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.logo-2 {
+    font-size: 85px;
+    position: absolute;
+    top: 35px;
+    left: 20px;
 }
 
 .half-circle {
     width: 250px;
     height: 250px;
     background: #f2ff41;
-    border-top-left-radius: 50%;
+    border-top-left-radius: 73%;
     position: absolute;
-    left: 29px;
+    left: 30px;
     top: 11px;
 }
 
 .half-circle i {
     position: absolute;
-    font-size: 70px;
-    top: 35px;
-    left: 45px;
+    font-size: 95px;
+    top: 75px;
+    left: 42px;
 }
 
 .second-half-circle {
-    width: 125px;
-    height: 125px;
+    width: 175px;
+    height: 165px;
     background: var(--color);
     border-bottom-left-radius: 100%;
     position: absolute;
-    left: 30px;
+    left: 31px;
     top: 0px;
 }
 
 .second-half-circle i {
     position: absolute;
-    font-size: 70px;
-    top: 10px;
+    font-size: 90px;
+    top: 48px;
     left: 25px;
 }
 
@@ -286,8 +317,8 @@ main {
     background: var(--color);
     display: block;
     position: absolute;
-    left: 25px;
-    top: 20px;
+    left: 40px;
+    top: 50px;
     border-radius: 100%;
     overflow: hidden;
     border: 1px solid black;
@@ -299,8 +330,8 @@ main {
     background: var(--color);
     display: block;
     position: absolute;
-    left: 82px;
-    top: 20px;
+    left: 110px;
+    top: 50px;
     border-radius: 100%;
     overflow: hidden;
     border: 1px solid black;
@@ -348,8 +379,8 @@ main {
 
 .time-circle {
     position: absolute;
-    top: -50px;
-    left: -50px;
+    top: -65px;
+    left: -65px;
 }
 
 .timer {
@@ -357,44 +388,44 @@ main {
 }
 
 .fa-clock {
-    font-size: 100px;
+    font-size: 130px;
     background: white;
     border-radius: 100%;
 }
 
 .d3-box {
-    width: 140px;
-    height: 140px;
+    width: 225px;
+    height: 225px;
     background-color: #f2ff41;
     position: absolute;
     transform: rotateX(30deg) rotateY(60deg);
-    right: 275px;
-    top: 63%;
+    right: 272px;
+    top: 80%;
     border-radius: 27px 10px 25px 30px;
     border: 2px solid black;
     z-index: 9;
 }
 
 .d3-box2 {
-    width: 140px;
-    height: 140px;
+    width: 220px;
+    height: 220px;
     background-color: #f2ff41;
     position: absolute;
     transform: rotateX(30deg) rotateY(60deg);
-    right: 279px;
-    top: 63%;
+    right: 276px;
+    top: 81%;
     border-radius: 27px 10px 25px 30px;
     border: 2px solid black;
     z-index: 10;
 }
 
 .d3-circle {
-    width: 90px;
-    height: 90px;
+    width: 125px;
+    height: 125px;
     background: black;
     position: absolute;
-    right: 304px;
-    top: 70%;
+    right: 318px;
+    top: 92%;
     z-index: 15;
     transform: rotateX(30deg) rotateY(60deg);
     border: 1px solid black;
@@ -402,12 +433,12 @@ main {
 }
 
 .d3-circle2 {
-    width: 90px;
-    height: 90px;
+    width: 125px;
+    height: 125px;
     background: #f2ff41;
     position: absolute;
-    right: 307px;
-    top: 70%;
+    right: 323px;
+    top: 92%;
     z-index: 14;
     transform: rotateX(30deg) rotateY(60deg);
     border: 1px solid black;
@@ -415,12 +446,12 @@ main {
 }
 
 .d3-circle3 {
-    width: 90px;
-    height: 90px;
+    width: 125px;
+    height: 125px;
     background: black;
     position: absolute;
-    right: 405px;
-    top: 100%;
+    right: 483px;
+    top: 136%;
     z-index: 15;
     transform: rotateX(-130deg) rotateY(0deg);
     border: 1px solid black;
@@ -428,12 +459,12 @@ main {
 }
 
 .d3-circle4 {
-    width: 90px;
-    height: 90px;
+    width: 125px;
+    height: 125px;
     background: #f2ff41;
     position: absolute;
-    right: 405px;
-    top: 99%;
+    right: 483px;
+    top: 135%;
     z-index: 14;
     transform: rotateX(-133deg) rotateY(0deg);
     border: 1px solid black;
@@ -565,4 +596,25 @@ main {
     bottom: -67px;
     z-index: 19;
     right: 442px;
+}
+
+.tooltip-icon1 img {
+    position: absolute;
+    bottom: 42px;
+    width: 52%;
+    right: 100px;
+}
+
+.tooltip-icon2 img {
+    position: absolute;
+    top: 117px;
+    width: 65%;
+    left: 70px;
+}
+
+.tooltip-text {
+    position: absolute;
+    bottom: 33px;
+    font-size: 30px;
+    right: 30px;
 }

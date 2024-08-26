@@ -220,6 +220,7 @@ main {
 .box7 {
     top: 380px;
     right: 380px;
+    overflow: hidden;
 }
 
 .box8 {
@@ -348,14 +349,162 @@ main {
     border-radius: 100%;
 }
 
-.d3-box{
+.d3-box {
     width: 140px;
     height: 140px;
-    background-color: red;
+    background-color: #f2ff41;
     position: absolute;
     transform: rotateX(30deg) rotateY(60deg);
-    right: 32px;
-    top: 10px;
-    border-radius: 27px 0 0 30px;
+    right: 275px;
+    top: 63%;
+    border-radius: 27px 10px 25px 30px;
     border: 2px solid black;
+    z-index: 9;
+}
+
+.d3-box2 {
+    width: 140px;
+    height: 140px;
+    background-color: #f2ff41;
+    position: absolute;
+    transform: rotateX(30deg) rotateY(60deg);
+    right: 279px;
+    top: 63%;
+    border-radius: 27px 10px 25px 30px;
+    border: 2px solid black;
+    z-index: 10;
+}
+
+.d3-circle {
+    width: 90px;
+    height: 90px;
+    background: black;
+    position: absolute;
+    right: 304px;
+    top: 70%;
+    z-index: 15;
+    transform: rotateX(30deg) rotateY(60deg);
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.d3-circle2 {
+    width: 90px;
+    height: 90px;
+    background: #f2ff41;
+    position: absolute;
+    right: 307px;
+    top: 70%;
+    z-index: 14;
+    transform: rotateX(30deg) rotateY(60deg);
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.d3-circle3 {
+    width: 90px;
+    height: 90px;
+    background: black;
+    position: absolute;
+    right: 405px;
+    top: 100%;
+    z-index: 15;
+    transform: rotateX(-130deg) rotateY(0deg);
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.d3-circle4 {
+    width: 90px;
+    height: 90px;
+    background: #f2ff41;
+    position: absolute;
+    right: 405px;
+    top: 99%;
+    z-index: 14;
+    transform: rotateX(-133deg) rotateY(0deg);
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.box6 h3 {
+    color: white;
+    font-size: 40px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    top: 12px;
+    left: 6px;
+}
+
+.fa-bitcoin {
+    position: absolute;
+    top: 10px;
+    right: 67px;
+    font-size: 50px;
+    transform: rotateX(38deg) rotateY(-12deg);
+}
+
+.bitcoin2 {
+    color: #dbca0a;
+    font-size: 35px;
+    position: absolute;
+    right: -20px;
+    top: 45px;
+    z-index: 1;
+    transform: rotateX(21deg) rotateY(-33deg);
+}
+
+.bitcoin3 {
+    color: #dbca0a;
+    font-size: 42px;
+    position: absolute;
+    right: 0px;
+    top: 81px;
+    z-index: 1;
+    transform: rotateX(35deg) rotateY(-4deg);
+}
+
+.line {
+    display: block;
+    width: 44px;
+    height: 4px;
+    background: linear-gradient(yellow, #ffcb00, #caca1f);
+    position: absolute;
+    right: -20px;
+    bottom: 24px;
+    border-radius: 4px;
+    transform: rotate(35deg);
+    z-index: 1;
+}
+
+.line2 {
+    display: block;
+    width: 36px;
+    height: 4px;
+    background: linear-gradient(yellow, #ffcb00, #caca1f);
+    position: absolute;
+    right: 50px;
+    bottom: 44px;
+    border-radius: 4px;
+    transform: rotate(-35deg);
+    z-index: 1;
+}
+
+.emoji1 {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    bottom: 7px;
+    z-index: 2;
+    left: 30px;
+}
+
+.emoji2{
+    position: absolute;
+  color: white;
+  font-size: 30px;
+  bottom: 42px;
+  z-index: 2;
+  right: 150px;
 }

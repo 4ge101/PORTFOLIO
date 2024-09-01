@@ -1422,8 +1422,8 @@ main {
     }
 
     .small-card-container {
-        position: absolute;
-        top: 30em;
+        position: relative;
+        top: 1em;
         z-index: 1;
     }
 
@@ -1442,10 +1442,11 @@ main {
 
     .option-container {
         top: 90em;
-        left: 20px;
+        left: 15px;
         font-size: 16px;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        width: 88%;
     }
 
     .option1 {
@@ -1541,12 +1542,12 @@ main {
     }
 
     .bottom {
-        position: absolute;
-        top: 20em;
+        position: relative;
+        bottom: 12em;
     }
 
     .card-container {
-        top: 86em;
+        top: 82em;
         left: 12px;
         display: grid;
         grid-template-columns: 1fr;
